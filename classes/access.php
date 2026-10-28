@@ -1,4 +1,11 @@
 <?php
+/**
+ * File documentation for classes/access.php.
+ *
+ * @package   customfield_courseimage
+ * @copyright 2026 Andreas Giesen
+ * @license   https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ */
 // Copyright (C) 2026 Andreas Giesen. See LICENSE.md.
 // SPDX-License-Identifier: GPL-3.0-or-later
 //

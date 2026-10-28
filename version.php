@@ -22,8 +22,8 @@
  */
 defined('MOODLE_INTERNAL') || die();
 $plugin->component = 'customfield_courseimage';
-$plugin->version = 2026101502;
-$plugin->release = '0.1.2-beta';
+$plugin->version = 2026102900;
+$plugin->release = '0.2.0-beta';
 $plugin->requires = 2024100700;
 $plugin->supported = [405, 503];
 $plugin->incompatible = 504;
