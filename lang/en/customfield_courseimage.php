@@ -21,7 +21,7 @@
  * @license http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 defined('MOODLE_INTERNAL') || die();
-$string['pluginname'] = 'Image';
+$string['pluginname'] = 'Certificate Multitool – Image';
 $string['specificsettings'] = 'Image settings';
 $string['defaultimage'] = 'Default image';
 $string['defaultimage_help'] = 'Optional image for courses without a saved field value. Clearing a saved course value suppresses the default.';

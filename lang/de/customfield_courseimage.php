@@ -21,7 +21,7 @@
  * @license http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 defined('MOODLE_INTERNAL') || die();
-$string['pluginname'] = 'Bild';
+$string['pluginname'] = 'Certificate Multitool – Bild';
 $string['specificsettings'] = 'Bildeinstellungen';
 $string['defaultimage'] = 'Standardbild';
 $string['defaultimage_help'] = 'Optionales Bild für Kurse ohne gespeicherten Feldwert. Ein bewusst geleerter Kurswert unterdrückt das Standardbild.';

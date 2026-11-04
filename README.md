@@ -1,4 +1,4 @@
-# Course image
+# Certificate Multitool – Image
 
 Add a single-image upload to Moodle's custom course fields. Use it for signatures, course logos or other course-specific images.
 <details>
