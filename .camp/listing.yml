@@ -1,0 +1,19 @@
+name: Certificate Multitool – Image
+summary: 108design's free GPL single-image course custom field stores signatures, logos and course-specific
+  pictures, with defaults and backup support.
+category: Course custom fields
+description: |
+  Add a single-image upload to Moodle's course custom fields. Course editors can store a signature, logo or other course-specific picture in course settings. Native field visibility, locking and course permissions apply.
+
+  The field accepts PNG, JPEG and GIF images up to 10 MiB and 16 million pixels. Transparent PNG images are suitable for signatures. SVG files and external repository aliases are not supported.
+
+  A configured default is used while a course has no saved value. An intentionally cleared and saved field remains empty instead of restoring the default. Native course backup and restore include the uploaded image.
+
+  This custom field works independently of Certificate manager. For certificate output, pair it with Course field image for Certificate manager (certificateelement_coursefieldimg), which can retain the selected image for each issue. Hidden fields can be selected for certificates, so use only images intended for recipients.
+
+  Maintained by 108design and available free of charge under the GNU GPL v3 or later.
+labels:
+- fully-free
+links:
+  docs: https://github.com/108design/moodle-customfield_courseimage/blob/main/README.md
+  issues: https://github.com/108design/moodle-customfield_courseimage/issues
