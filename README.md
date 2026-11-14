@@ -1,10 +1,14 @@
-# Certificate Multitool – Image
+<p align="center">
+  <img src="https://raw.githubusercontent.com/108design/moodle-customfield_courseimage/main/docs/branding/marketplace-logo.png" alt="Certificate Multitool – Course Field: Image logo" width="125" height="125">
+</p>
+
+# Certificate Multitool – Course Field: Image
 
 Add a single-image upload to Moodle's custom course fields. Use it for signatures, course logos or other course-specific images.
 <details>
 <summary>Screenshots</summary>
 
-<table><tr><td><a href="https://raw.githubusercontent.com/108design/moodle-customfield_courseimage/main/docs/screenshots/course-image-upload.png"><img src="https://raw.githubusercontent.com/108design/moodle-customfield_courseimage/main/docs/screenshots/course-image-upload.png" alt="Image upload saved in native course settings" width="420"></a><br>Image upload saved in native course settings</td><td><a href="https://raw.githubusercontent.com/108design/moodle-customfield_courseimage/main/docs/screenshots/course-certificate.png"><img src="https://raw.githubusercontent.com/108design/moodle-customfield_courseimage/main/docs/screenshots/course-certificate.png" alt="Course-specific image in a generated certificate" width="420"></a><br>Course-specific image in a generated certificate</td></tr></table>
+<table><tr><td><a href="https://raw.githubusercontent.com/108design/moodle-customfield_courseimage/main/docs/screenshots/course-image-field.jpg"><img src="https://raw.githubusercontent.com/108design/moodle-customfield_courseimage/main/docs/screenshots/course-image-field.jpg" alt="Course image saved in Moodle course settings" width="420"></a><br>Course image saved in Moodle course settings</td><td><a href="https://raw.githubusercontent.com/108design/moodle-customfield_courseimage/main/docs/screenshots/field-survey-certificate.png"><img src="https://raw.githubusercontent.com/108design/moodle-customfield_courseimage/main/docs/screenshots/field-survey-certificate.png" alt="The course image on the issued certificate" width="420"></a><br>The course image on the issued certificate</td></tr></table>
 
 </details>
 
@@ -16,11 +20,11 @@ Use the text pair for course-managed wording and the image pair for course-speci
 
 | Plugin | Role and companion |
 | --- | --- |
-| [Certificate Multitool – Custom Field](https://github.com/108design/moodle-customfield_multiline) | Stores course text, text mode and alignment. Pair it with Cert. Element for certificate output. |
-| [Certificate Multitool – Cert. Element](https://github.com/108design/moodle-certificateelement_coursefieldtext) | Renders that course text and supplies the course HTML preview. Requires Custom Field and Certificate manager. |
-| [Course image](https://github.com/108design/moodle-customfield_courseimage) | Provides a single-image course field. Pair it with Course field image for certificate output. |
-| [Course field image](https://github.com/108design/moodle-certificateelement_coursefieldimg) | Places a course image on the certificate and preserves the issued image copy. Requires Certificate manager; it accepts Course image or a native textarea field with an internal image. |
-| [Flexible Date](https://github.com/108design/moodle-certificateelement_flexdate) | Formats certificate issue and expiry dates. Requires Certificate manager. |
+| [Certificate Multitool – Course Field: Multiline Text](https://github.com/108design/moodle-customfield_multiline) | Stores course text, text mode and alignment. Pair it with Cert. Element for certificate output. |
+| [Certificate Multitool – Cert. Element: Multiline Text](https://github.com/108design/moodle-certificateelement_coursefieldtext) | Renders that course text and supplies the course HTML preview. Requires Custom Field and Certificate manager. |
+| [Certificate Multitool – Course Field: Image](https://github.com/108design/moodle-customfield_courseimage) | Provides a single-image course field. Pair it with Course field image for certificate output. |
+| [Certificate Multitool – Cert. Element: Course Field Image](https://github.com/108design/moodle-certificateelement_coursefieldimg) | Places a course image on the certificate and preserves the issued image copy. Requires Certificate manager; it accepts Course image or a native textarea field with an internal image. |
+| [Certificate Multitool - Cert. Element: Flexible Date](https://github.com/108design/moodle-certificateelement_flexdate) | Formats certificate issue and expiry dates. Requires Certificate manager. |
 
 **Text pair:** install Custom Field and Cert. Element together for the course-text certificate workflow. **Image pair:** install Course image and Course field image together for the single-image upload workflow. The image element can also use a native textarea image without Course image. Course certificate is needed for course-based issuance and the text pair’s course HTML preview.
 
