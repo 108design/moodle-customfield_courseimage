@@ -32,3 +32,7 @@
 "/tests" -export-ignore -export-subst
 "/tests/data_controller_test.php" -export-ignore -export-subst
 "/version.php" -export-ignore -export-subst
+"/docs/branding" export-ignore -export-subst
+"/docs/branding/marketplace-logo.png" export-ignore -export-subst
+"/docs/screenshots/course-image-field.jpg" export-ignore -export-subst
+"/docs/screenshots/field-survey-certificate.png" export-ignore -export-subst
