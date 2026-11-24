@@ -25,11 +25,12 @@
  * @license http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 defined('MOODLE_INTERNAL') || die();
+
 $string['pluginname'] = 'Certificate Multitool – Bild';
 $string['specificsettings'] = 'Bildeinstellungen';
 $string['defaultimage'] = 'Standardbild';
 $string['defaultimage_help'] = 'Optionales Bild für Kurse ohne gespeicherten Feldwert. Ein bewusst geleerter Kurswert unterdrückt das Standardbild.';
 $string['image'] = 'Kursbild';
-$string['image_help'] = 'Lade ein PNG-, JPEG- oder GIF-Bild hoch (höchstens 10 MiB und 16 Millionen Pixel). Das Entfernen des Bildes speichert einen leeren Wert.';
-$string['invalidimage'] = 'Lade genau ein gültiges lokales PNG-, JPEG- oder GIF-Bild mit höchstens 10 MiB und 16 Millionen Pixeln hoch.';
+$string['image_help'] = 'Laden Sie ein PNG-, JPEG- oder GIF-Bild hoch (höchstens 10 MiB und 16 Millionen Pixel). Das Entfernen des Bildes speichert einen leeren Wert.';
+$string['invalidimage'] = 'Laden Sie genau ein gültiges lokales PNG-, JPEG- oder GIF-Bild mit höchstens 10 MiB und 16 Millionen Pixeln hoch.';
 $string['privacy:metadata'] = 'Die Bildwerte werden vom Moodle-Subsystem für benutzerdefinierte Felder verwaltet und beschrieben. Dieses Plugin ergänzt Export und Löschung der zugehörigen Dateien.';
