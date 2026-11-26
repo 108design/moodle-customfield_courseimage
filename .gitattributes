@@ -10,6 +10,7 @@
 "/.gitignore" export-ignore -export-subst
 "/LICENSE.md" -export-ignore -export-subst
 "/README.md" -export-ignore -export-subst
+"/TRADEMARKS.md" -export-ignore -export-subst
 "/classes" -export-ignore -export-subst
 "/classes/access.php" -export-ignore -export-subst
 "/classes/data_controller.php" -export-ignore -export-subst
